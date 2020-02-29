@@ -176,6 +176,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\MyServiceProvider::class,
+        App\Providers\ShopSidebarProvider::class,
 
     ],
 

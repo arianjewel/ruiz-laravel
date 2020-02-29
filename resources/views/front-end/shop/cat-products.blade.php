@@ -69,7 +69,6 @@
                                 <div class="tab-pane active" id="grid">
                                     <div class="shop-product-wrap">
                                         <div class="row">
-{{--                                            @foreach($catProducts as $catProduct)--}}
                                                 @if($catProducts->products)
                                                     @foreach($catProducts->products as $product)
                                                 <div class="col-lg-4 col-md-6">

@@ -21,8 +21,7 @@ Route::prefix('/')->group(function (){
     Route::post('/search', 'RuizController@searchProducts')->name('product.search');
 
 
-    Route::get('/blog', 'RuizController@blog')->name('blog');
-
+    Route::get('/blog', 'BlogController@index')->name('blog');
 
 
     Route::resource('/contact', 'ContactController');

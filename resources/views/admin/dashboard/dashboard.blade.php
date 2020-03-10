@@ -30,7 +30,7 @@
                     <!-- small box -->
                     <div class="small-box bg-info">
                         <div class="inner">
-                            <h3>{{count($orders)}}</h3>
+                            <h3>{{$ordersCount}}</h3>
 
                             <p>Orders</p>
                         </div>
@@ -46,7 +46,7 @@
                     <!-- small box -->
                     <div class="small-box bg-danger">
                         <div class="inner">
-                            <h3>{{count($products)}}</h3>
+                            <h3>{{$productsCount}}</h3>
 
                             <p>Products</p>
                         </div>
@@ -61,7 +61,7 @@
                     <!-- small box -->
                     <div class="small-box bg-warning">
                         <div class="inner">
-                            <h3>{{count($users)}}</h3>
+                            <h3>{{$usersCount}}</h3>
 
                             <p>User Registrations</p>
                         </div>

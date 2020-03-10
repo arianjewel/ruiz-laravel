@@ -72,4 +72,9 @@ class RuizController extends Controller
         return view('front-end.auth.my-account');
     }
 
+
+    public function blogShow(){
+        return view('front-end.blog.blog');
+    }
+
 }

@@ -28,7 +28,7 @@ class AddressController extends Controller
         ]);
 
     	Shipping::create($request->all());
-    	return redirect('/my-account/view')->with('message','Thanks for with us. your info saved!');
+    	return redirect('/my-account/view')->with('message','Thanks to with us. your info saved!');
     }
 
     public function show(){
@@ -46,4 +46,5 @@ class AddressController extends Controller
     	Shipping::where('user_id', $id)->update($input); 
     	return redirect('/my-account/view/')->with('message','Thanks for with us. your info updated!');
     }
+
 }

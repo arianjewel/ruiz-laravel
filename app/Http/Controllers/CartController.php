@@ -19,10 +19,12 @@ class CartController extends Controller
     		$price = $product->sell_price;
     	}
 
-    	foreach (json_decode($product->product_image) as $img) {
-    		$img = $img;
-    		break;
-    	}
+        $img = json_decode($product->product_image)[0];
+
+    	// foreach (json_decode($product->product_image) as $img) {
+    	// 	$img = $img;
+    	// 	break;
+    	// }
 
 
 
